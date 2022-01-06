@@ -1,0 +1,49 @@
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+} 
+#navnav{
+    justify-content: space-evenly;
+       
+} 
+.logo{
+    width: 80px;
+    
+}
+@media (min-width:992px){
+    .active{
+        border-bottom: 4px solid green;
+    }
+}
+#recent{
+    margin-top: 100px;
+    background-color: #f9ecdc;
+    margin-bottom: 150px;
+    /* box-sizing: inherit; */
+}
+.text{
+    padding: 130px 100px 130px ;
+}
+#care{
+    background-color: #fcfcfc;
+    margin-top: 250px;
+
+}
+.textt{
+    padding-bottom: 80px;
+    line-height: 50px;
+}
+.for{
+    padding-bottom: 30px;
+}
+.please{
+    line-height: 50px;
+}
+#abt{
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: #07321b;
+    padding: 50px;
+}

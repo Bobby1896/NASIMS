@@ -1,0 +1,158 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.navbar{
+    background-color: white;
+}
+.navbar-brand{
+    font-size: 20px;
+    
+}
+@media(max-width:991px){
+    .navbar-brand{
+        visibility: hidden;
+    }
+}
+@media (min-width:992px){
+    .active{
+        border-bottom: 4px solid green;
+    }
+}
+@media screen (max-width:768px){
+    #carouselExampleControls{
+        background-image: url(.lady);
+    }
+}
+@media (max-width:767px){
+    .first-intro{
+        background-image: url(./Photos/image3.jpg);
+        color: #fff;
+    }
+    .second-intro{
+        background-image: url(./Photos/image2.jpg);
+        background-image: linear-gradient);
+        color: #fff;
+    }
+    .third-intro{
+        background-image: url(./Photos/hero3.jpg);
+        color: #fff;
+    }
+
+    
+#cards{
+    border-bottom: none;
+}
+#other{
+    border-bottom: none;
+}
+#carouselExampleControls{
+    margin-top:130px ;
+}
+.navbar-brand{
+    font-size: 16px;
+}
+#farm{
+    margin-bottom: 150px;
+}
+#carousell{
+    border-bottom: none;
+}
+#children{
+    border-bottom: none;
+}
+#farms{
+    border-bottom: none;
+}
+#cc{
+    background-color: rgb(242, 252, 249);
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+.programmes{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+#carousel-item{
+    width: 100%;
+}
+.lady{
+    background-image:url(./Photos/image2.jpg);
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.img-responsive{
+    width: 170px;
+}
+.central{
+    word-spacing: 5px;
+}
+.text-success{
+    text-decoration: none;
+}
+.National{
+    word-spacing: 5px;
+}
+#Please{
+    background-color: rgb(242, 252, 249);
+}
+#How{
+    background-color: rgb(252, 244, 242);
+    border-bottom: none;
+}
+#Social{
+    background-color: rgb(255, 251, 246);
+}
+
+.card-body{
+    display: table;
+    border-bottom: yellow;
+}
+#abt{
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: #07321b;
+    padding: 50px;
+    
+}
+.con{
+    word-spacing: 30px;
+}
+#calling{
+    margin-right:200px
+}
+#screwing{
+    padding-bottom: 30px;
+}
+#learn{
+    background-color: rgb(216, 241, 234);
+
+}
+.apply{
+    margin-top: 50px;
+}
+#newss{
+    margin-bottom: 100px;
+}
+#question{
+    margin-top: 50px;
+}
+.fa{
+    padding: 20px;
+    font-size: 27px;
+    width: auto;
+    text-decoration: none;
+    color: white;
+    display: inline-block; 
+    
+
+    
+    
+    
+}
+

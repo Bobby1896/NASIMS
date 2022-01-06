@@ -1,0 +1,81 @@
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.logo{
+    width: 80px;
+}
+.bg{
+    background-image: url(./Photos/about1ed.png);
+    height: 350px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:1400px;
+    margin-top: 120px;
+    
+}
+.text{
+    padding-top: 100px;
+}
+#woman{
+    margin-top: 150px;
+}
+#overview{
+    line-height:2;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+#four{
+    background-color: rgb(255, 251, 246);
+    margin-bottom: 30px;
+}
+#programme{
+    margin-bottom: 50px;
+}
+#conditioner{
+    margin-bottom: 50px;
+}
+#enterprise{
+    margin-bottom: 50px; 
+}
+#girl{
+    padding-bottom: 200px;
+}
+#know{
+    background-color: #141414;
+    margin-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#social{
+    background-color: white;
+}
+#fluid{
+    margin-bottom: 150px;
+}
+@media (min-width:992px){
+    .active{
+        border-bottom: 4px solid green;
+    }
+}
+#last{
+    display: inline-flex;
+    list-style: none;
+}
+#abt{
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: #07321b;
+    padding: 50px;
+}
+.con{
+    word-spacing: 30px;
+}
+#newss{
+    margin-bottom: 100px;
+}
+
+

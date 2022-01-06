@@ -1,0 +1,41 @@
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+     
+}
+.logo{
+    width: 80px;
+}
+#top{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+#biometric{
+    background-color: #dbf9ea;
+    border-radius: 4px;
+    padding: 30px 40px;
+
+} 
+.box{
+    padding: 10px;
+   padding-right: 200px;
+}
+.flex{
+    display: flex;
+    
+}
+#info{
+    margin-top:250px;
+}
+#proceed{
+    padding-right: 60px;
+}
+#instructions{
+    margin-bottom: 50px;
+}
+/* .btn{
+    padding-left: 20px;
+    padding-right: 20px;
+} */

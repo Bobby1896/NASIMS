@@ -19,7 +19,7 @@ body{
         visibility: visible;
     }
 } */
-@media(max-width:767px){
+@media(max-width:px){
     .fm{
         width: 70%;
         margin-top: 50px;
@@ -214,4 +214,3 @@ body{
         max-width: 70%;
     }
 } */
-.

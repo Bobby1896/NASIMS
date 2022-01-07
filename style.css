@@ -154,6 +154,13 @@ body{
         max-width: 70% !important;
     }
 }
+@media (max-width:575px){
+    html,body{
+        overflow-x: hidden;
+        position: relative;
+        
+    }
+}
 .cad{
     width:450px;
 }

@@ -9,71 +9,7 @@ body{
     font-size: 20px;
     
 }
-@media(max-width:991px){
-    .navbar-brand{
-        visibility: hidden;
-    }
-}
-/* @media(min-width:576px){
-    .navbar-collapse{
-        visibility: visible;
-    }
-} */
-@media(max-width:px){
-    .fm{
-        width: 70%;
-        margin-top: 50px;
-        position: relative;
-        bottom: 800px;
-        
-    }
-    .farm{
-        margin-top: 350px;
-        margin-bottom: -150px;
-    }
-    #cc{
-        width: 100%;
-    }
-    #mon{
-        width: 100px;
-        position: relative;
-        right: 40%;
-    }
-    .crd{
-        width:1%
-    }
-    .rest{
-        position:relative;
-        right:55px
-        
-    }
-    .cad{
-        margin-bottom: 20%;
-    }
-    .page{
-        margin-top:-25%
-    }
-}
-@media (min-width:992px){
-    .active{
-        border-bottom: 4px solid green;
-    }
-}
 
-@media (max-width:767px){
-    .first-intro{
-        background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./Photos/image3.jpg);
-        color: #fff;
-    }
-    .second-intro{
-        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./Photos/image2.jpg);
-        color: #fff;
-    }
-    .third-intro{
-        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./Photos/hero3.jpg);
-        color: #fff;
-    }  
-}
 #cards{
     border-bottom: none;
 }
@@ -186,6 +122,70 @@ body{
     width: 400px;
 
 }
+.cad{
+    width:450px;
+}
+@media(max-width:991px){
+    .navbar-brand{
+        visibility: hidden;
+    }
+}
+
+@media(max-width:767px){
+    .fm{
+        width: 70%;
+        margin-top: 50px;
+        position: relative;
+        bottom: 800px;
+        
+    }
+    .farm{
+        margin-top: 350px;
+        margin-bottom: -150px;
+    }
+    #cc{
+        width: 100%;
+    }
+    #mon{
+        width: 100px;
+        position: relative;
+        right: 40%;
+    }
+    .crd{
+        width:1%
+    }
+    .rest{
+        position:relative;
+        right:55px
+        
+    }
+    .cad{
+        margin-bottom: 20%;
+    }
+    .page{
+        margin-top:-25%
+    }
+}
+@media (min-width:992px){
+    .active{
+        border-bottom: 4px solid green;
+    }
+}
+
+@media (max-width:767px){
+    .first-intro{
+        background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./Photos/image3.jpg);
+        color: #fff;
+    }
+    .second-intro{
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./Photos/image2.jpg);
+        color: #fff;
+    }
+    .third-intro{
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./Photos/hero3.jpg);
+        color: #fff;
+    }  
+}
 @media (max-width:578px){
     .buahi{
         width: 250px;
@@ -202,15 +202,3 @@ body{
         
     }
 }
-.cad{
-    width:450px;
-}
-/* @media (max-width:375px){
-    .cad{
-        width:200px;
-    }
-    .rest{
-        margin: auto;
-        max-width: 70%;
-    }
-} */

@@ -29,8 +29,8 @@
 #info{
     margin-top:250px;
 }
-#proceed{
-    padding-right: 60px;
+.proceed{
+    width: 400px;
 }
 #instructions{
     margin-bottom: 50px;

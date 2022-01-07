@@ -19,27 +19,20 @@ body{
         border-bottom: 4px solid green;
     }
 }
-@media screen (max-width:768px){
-    #carouselExampleControls{
-        background-image: url(.lady);
-    }
-}
 @media (max-width:767px){
     .first-intro{
-        background-image: url(./Photos/image3.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./Photos/image3.jpg);
         color: #fff;
     }
     .second-intro{
-        background-image: url(./Photos/image2.jpg);
-        background-image: linear-gradient);
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./Photos/image2.jpg);
         color: #fff;
     }
     .third-intro{
-        background-image: url(./Photos/hero3.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./Photos/hero3.jpg);
         color: #fff;
-    }
-
-    
+    }  
+}
 #cards{
     border-bottom: none;
 }
@@ -113,13 +106,7 @@ body{
     display: table;
     border-bottom: yellow;
 }
-#abt{
-    margin-top: 50px;
-    padding-top: 20px;
-    background-color: #07321b;
-    padding: 50px;
-    
-}
+
 .con{
     word-spacing: 30px;
 }
@@ -149,10 +136,33 @@ body{
     text-decoration: none;
     color: white;
     display: inline-block; 
-    
-
-    
-    
-    
+     
 }
+.welcome{
+    padding-top: 50px;
+}
+.buahi{
+    width: 400px;
 
+}
+@media (max-width:578px){
+    .buahi{
+        width: 250px;
+    }
+    #newss{
+        margin: auto !important;
+        max-width: 70% !important;
+    }
+}
+.cad{
+    width:450px;
+}
+@media (max-width:375px){
+    .cad{
+        width:200px;
+    }
+    .rest{
+        margin: auto;
+        max-width: 70%;
+    }
+}

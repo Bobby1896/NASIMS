@@ -28,6 +28,13 @@
     font-size: 18px;
     margin-bottom: 100px;
 }
+@media (max-width:768px){
+    .dare{
+        margin: auto;
+        max-width: 80%;
+        padding-bottom: 30px;
+    }
+}
 #four{
     background-color: rgb(255, 251, 246);
     margin-bottom: 30px;
@@ -64,12 +71,6 @@
 #last{
     display: inline-flex;
     list-style: none;
-}
-#abt{
-    margin-top: 50px;
-    padding-top: 20px;
-    background-color: #07321b;
-    padding: 50px;
 }
 .con{
     word-spacing: 30px;

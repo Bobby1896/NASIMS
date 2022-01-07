@@ -12,11 +12,7 @@
     width: 80px;
     
 }
-@media (min-width:992px){
-    .active{
-        border-bottom: 4px solid green;
-    }
-}
+
 #recent{
     margin-top: 100px;
     background-color: #f9ecdc;
@@ -40,4 +36,16 @@
 }
 .please{
     line-height: 50px;
+}
+@media (min-width:992px){
+    .active{
+        border-bottom: 4px solid green;
+    }
+}
+@media (max-width:575px){
+    html,body{
+        overflow-x: hidden;
+        position: relative;
+        
+    }
 }

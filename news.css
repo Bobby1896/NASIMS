@@ -10,6 +10,7 @@
 #recent{
     margin-top: 100px;
     background-color: #f9ecdc;
+    
 }
 .text{
     padding: 130px 100px 130px ;
@@ -46,14 +47,51 @@
 #fluid{
     margin-bottom: 150px;
 }
+
+#last{
+    display: inline-flex;
+    list-style: none;
+}
+@media (max-width:575px){
+    html,body{
+        overflow-x: hidden;
+        position: relative;
+        
+    }
+}
 @media (min-width:992px){
     .active{
         border-bottom: 4px solid green;
     }
 }
-#last{
-    display: inline-flex;
-    list-style: none;
+@media (max-width:575px){
+    .woman{
+        position: relative;
+        bottom: 600px;
+        width: 100%;
+    }
+    .per{
+        position: relative;
+        top: 200px;
+        text-align: center;
+        
+    }
+    .call{
+        width: 100%;
+        padding-top: -500px;
+    }
+    .cre{
+        text-align: center;
+    }
+    .laps{
+        width:100%;
+        position:relative;
+        bottom:1200px;
+    }
+    .por{
+        position:relative;
+        top: 400px;
+        text-align: center;
+    }
 }
-
 

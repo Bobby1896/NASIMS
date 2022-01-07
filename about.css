@@ -28,13 +28,7 @@
     font-size: 18px;
     margin-bottom: 100px;
 }
-@media (max-width:768px){
-    .dare{
-        margin: auto;
-        max-width: 80%;
-        padding-bottom: 30px;
-    }
-}
+
 #four{
     background-color: rgb(255, 251, 246);
     margin-bottom: 30px;
@@ -63,11 +57,7 @@
 #fluid{
     margin-bottom: 150px;
 }
-@media (min-width:992px){
-    .active{
-        border-bottom: 4px solid green;
-    }
-}
+
 #last{
     display: inline-flex;
     list-style: none;
@@ -78,5 +68,64 @@
 #newss{
     margin-bottom: 100px;
 }
+@media (min-width:992px){
+    .active{
+        border-bottom: 4px solid green;
+    }
+}
+@media (max-width:768px){
+    .dare{
+        margin: auto;
+        max-width: 80%;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width:575px){
+    html,body{
+        overflow-x: hidden;
+        position: relative;
+        
+    }
+}
+@media(max-width:575px){
+    .guy{
+        position: relative;
+        left: 20%;
+        margin-bottom: 10%;
+    }
+    .mal{
+        position: relative;
+        left: 20%;
+        margin-bottom: 10%;
+    }
+    .cit{
+        position: relative;
+        left: 20%;
+        margin-bottom: 10%;
 
+    }
+    .girl{
+        position: relative;
+        left: 20%;
+        margin-bottom: 10%;
+    }
+    .hme{
+        text-align: center;
+    }
+    #enterprise{
+        text-align: center;
+    }
+    #conditioner{
+        text-align: center;
+    }
+    #programme{
+        text-align: center;
+    }
+    .cad{
+        margin-bottom: 15%;
+    }
+    .page{
+        margin-top:-45%
+    }
+}
 
